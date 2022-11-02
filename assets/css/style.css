@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--dark);
+    line-height: 1.5;
+    font-size: 16px;
+    
+}
+header {
+    height: 10px;
+}
+.titlePups{
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+a {
+    color: rgb(95, 71, 36)
+}
+nav{
+    color: rgb(95, 71, 36);
+    text-align: center;
+}
+.hero {
+    border: solid white 5px;
+    border-radius: 10px;
+    margin: 0px 50px 300px 600px;
+    width: 700px;
+    color: rgb(95, 71, 36);
+    padding: 15px;
+    background-color: rgb(205, 142, 153);
+    height: 200px;
+    overflow: auto;
+    
+}
+.about-us-text{
+    align-items: center;
+}
+.scrollbar {
+    height: 250px;
+    overflow: auto;
+}
+.imglogo {
+    height: 200px;
+}
+/* .imglogo:hover {
+    background-image: url(./external-logo.png);
+    background-size: cover;
+} */
+.imgmenu1 {
+    height: 240px;
+    margin-bottom: 40px;
+   
+}
+.noodle1{
+    position: absolute;
+    top: 3;
+    left: 30%;
+}
+.noodle2{
+    position: absolute;
+    top: 4;
+    right: 12%;
+}
+/* .imgmenu1:hover {
+    background-image: url(./about-us-external-menu\ copy.png);
+    background-size: cover;
+} */
+.overlay {}
+.imgmenu2 {
+    height: 200px;
+    margin-bottom: 60px;
+}
+/* .imgmenu2:hover {
+    background-image: url(./baked-goods-external-menu\ copy.png);
+    background-size: cover;
+} */
+.imgmenu3 {
+    height: 240px;
+    margin-bottom: 40px;
+}
+/* .imgmenu3:hover {
+    background-image: url(./treat-external-menu\ copy.png);
+    background-size: cover;
+} */
+
+.flew-row {
+    border: solid white 3px;
+    width: 100px;
+}
+.row .col {
+    
+    border: 5px solid white;
+    margin: 500px 0px 0px 100px;
+    border-radius: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.searchCard {
+    float: left;
+    margin: 500px 0px 400px 20px;
+    border: solid white 8px;
+    padding: 20px 20px 100px 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+}
+/* about us starts*/
+.story-text {
+        border: solid white 8px;
+        border-radius: 10px;
+        margin: 500px 50px 100px 0px;
+        width: 700px;
+        color: rgb(95, 71, 36);
+        float: right;
+        background-color: rgb(230, 143, 208);
+        padding: 10px;
+}
+
+.coverimg2 {
+    height: 500px;
+    width: 500px;
+    float: right;
+}
+.cakeimg {
+    float: left;
+    margin: 50px 0px 0px 0px;
+}
+.pupcakeimg {
+    float: right;
+    height: 400px;
+}
+.about-text {
+    border: solid white 8px;
+    border-radius: 10px;
+    margin: 500px 50px 100px 0px;
+    width: 700px;
+    color: rgb(95, 71, 36);
+    float: right;
+    background-color: rgb(230, 143, 208);
+    padding: 10px;
+    height: 400px;
+}
+.recipe-text {
+    border: solid white 8px;
+    margin: 0px 50px 10px 0px;
+    border-radius: 10px;
+    width: 700px;
+    color: rgb(95, 71, 36);
+    background-color: rgb(230, 143, 208);
+    padding: 10px;
+    height: 300px;
+    float: right;
+}
+.pupcake-text {
+    border: solid white 8px;
+    margin: 0px 0px 100px 50px;
+    border-radius: 10px;
+    width: 700px;
+    color: rgb(95, 71, 36);
+    background-color: rgb(230, 143, 208);
+    padding: 10px;
+    height: 300px;
+    float: left;
+}
+.row .col {
+    border: none;
+    margin: none;
+    width: auto;
+}
+.row { 
+    margin: none;
+}
+.treatimg {
+    float: right;
+}
+.cakeintro {
+    border: solid white 8px;
+    border-radius: 10px;
+    margin: 500px 50px 100px 0px;
+    width: 700px;
+    color: rgb(95, 71, 36);
+    float: right;
+    background-color: rgb(230, 143, 208);
+    padding: 10px;
+}
+.treatintro {
+    border: solid white 8px;
+    border-radius: 10px;
+    margin: 0px 0px 100px 50px;
+    width: 700px;
+    color: rgb(255, 255, 255);
+    float: left;
+    background-color: rgb(187, 57, 154);
+    padding: 10px;
+}
+.cookieintro {
+    border: solid white 8px;
+    border-radius: 10px;
+    margin: 0px 50px 100px 0px;
+    width: 700px;
+    color: rgb(95, 71, 36);
+    float: right;
+    background-color: rgb(230, 143, 208);
+    padding: 10px;
+}
